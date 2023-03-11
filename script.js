@@ -12,9 +12,8 @@ for (let i = 0; i < savedWords.length; i++) {
 }
 
 
-
+// Add word Button
 let addWordBtn = document.getElementById('add-word-btn');
-
 addWordBtn.addEventListener('click', function (event) {
   event.preventDefault();
   let englishWord = document.getElementById('english-word').value;

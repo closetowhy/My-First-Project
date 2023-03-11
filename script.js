@@ -1,7 +1,7 @@
+//Add words to the table after refreshing the page
+
 let savedWords = JSON.parse(localStorage.getItem('savedWords')) || [];
-
 let wordTableBody = document.getElementById('word-table-body');
-
 for (let i = 0; i < savedWords.length; i++) {
   let row = "<tr><td>" + savedWords[i].englishWord +
     "</td><td>" + savedWords[i].translation + "</td><td>" +
